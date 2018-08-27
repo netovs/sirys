@@ -20,6 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		// vista publica de la aplicación Web.
 		$this->load->view('welcome_message');
 	}
 }
